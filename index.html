@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robert Juhas</title>
+    <link rel="stylesheet" href="lib/termynal.css">
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+  </head>
+  <body>
+    <!-- the termynal container -->
+    <div id="termynal" data-termynal>
+        <span data-ty="input" data-ty-prompt="❯">bio</span>
+        <span data-ty>Welcome! I am Software Developer with more than 6 years of professional experience mostly on backend roles.</span>
+        <span data-ty="input" data-ty-prompt="❯">tech load</span>
+        <span data-ty="progress"></span>
+        <span data-ty>Java (Spring Boot)
+            <br>
+            SQL (MySQL, PostgreSQL)
+            <br>
+            NoSQL (ElasticSearch, MongoDB)
+            <br>
+            Cloud: AWS
+            <br>
+            Containerization: Docker, K8S
+        </span>
+        <span data-ty="input" data-ty-prompt="❯">contact</span>
+        <span data-ty>rbrtjhs@gmail.com
+            <br>
+            https://linkedin.com/in/rbrtjhs
+        </span>
+    </div>
+
+    <!-- include and initialise termynal.js -->
+    <script src="lib/termynal.js" data-termynal-container="#termynal"></script>
+</body>
+</html>
